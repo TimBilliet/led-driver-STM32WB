@@ -23,3 +23,4 @@ Because of this quite high power an aluminium PCB was used for the LED's. A heat
 - Using a MLPF-WB-02D3 RF filter on the antenna trace. I was unable to solder this, even in an oven. The pads were way too small for me.
 - Using a reverse polarity protection MOSFET with a too low I<sub>D</sub>. When the battery was almost empty the current went up and the MOSFET got very hot.
 - When testing the red LED's of the LED pcb i somehow blew them up. (red LED's have the lowest V<sub>f</sub> ....hmm)
+- Not adding protection on the pwm pins. Any signal put on those pins goes straight to the MCU. I blew up an STM32 like this.
